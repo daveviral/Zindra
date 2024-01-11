@@ -42,7 +42,7 @@ font-family: 'Rufina', serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color:#818998;
+	color:#818998;    /*Text Color*/
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -52,7 +52,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #444a57;
+	color: #0F1035;
 	font-size:20px;
 	padding:0;
     font-weight: 500;
@@ -60,7 +60,7 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#444a57;
+	color:#0F1035;   /*title color*/
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -72,13 +72,13 @@ ol > li {
 	margin-bottom: 15px;
 }
 
-ol > li::before {content: "•	"; color:#4e4ffa}
+ol > li::before {content: "•	"; color:#0F1035}   /* dot color */
 }
 		
 
 p {
 	margin: 0;
-	color:#818998;
+	color:#DCF2F1;   /*botton color*/
 	font-size:16px;
     line-height: 1.8;
     text-transform: initial;
@@ -115,21 +115,21 @@ html,body{height: 100%;}
 }
 .section-header h2{
     position: relative;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 500;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
 }
 .section-header h2:before {
     position: absolute;
     content: "";
     width: 80px;
     height: 2px;
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
     margin-left: -42px;
-    background: #4e4ffa;
+    background: #7FC7D9;  /*line color*/
 }
-.section-header p{color: #444a57;text-transform: capitalize;margin-bottom:10px;}
+.section-header p{color: #ff0;text-transform: capitalize;margin-bottom:10px;}
 .section-header h2 span,.section-header p span{text-transform: lowercase;}
 
 /* section-header */
@@ -152,7 +152,7 @@ html,body{height: 100%;}
 .dropdown-content {
     display: none; /* Initially hide the dropdown */
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ff0;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
@@ -190,12 +190,12 @@ nav.navbar.bootsnav {
     letter-spacing: 3px;
     font-family: 'Rufina', serif;
     font-weight: 700;
-    padding: 35px 0px;
+    padding: 30px 0px;
     text-transform:uppercase;
 }
-.navbar-header a.navbar-brand span{display: inline-block;color:#4e4ffa;text-transform:capitalize;}
+.navbar-header a.navbar-brand span{display: inline-block;color:#ff0;text-transform:capitalize;}
 
-.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:40px 0px;}
+.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:35spx 0px;}
 /*.navbar-brand*/
 
 
@@ -204,7 +204,7 @@ nav.navbar.bootsnav {
     .navbar-header a.navbar-brand:hover,
     .navbar-header a.navbar-brand:focus {
         display: inline-block;
-        color: #fff;
+        color: #ff0;
         font-size: 24px;
         letter-spacing: 3px;
         font-family: 'Rufina', serif;
@@ -222,14 +222,14 @@ nav.navbar.bootsnav {
 
     .navbar-header a.navbar-brand span {
         display: inline-block;
-        color: #4e4ffa;
+        color: #ff0;
         text-transform: capitalize;
     }
 
     .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,
     .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,
     .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {
-        padding: 18px 0px;
+        padding: 20px 0px;
     }
 </style>
 
@@ -239,7 +239,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    color: #f5f7fa;
+    color: #ff0;
     font-size: 16px;
     font-weight: 500;
     text-transform:uppercase;
@@ -249,9 +249,9 @@ nav.navbar.bootsnav ul.nav > li > a {
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-nav.navbar.bootsnav ul.nav > li > a {padding: 48px 21px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color:#fff;}
-nav.navbar.bootsnav ul.nav > li.active>a {color: #4e4ffa;}
+nav.navbar.bootsnav ul.nav > li > a {padding: 45px 21px;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color:#365486;}
+nav.navbar.bootsnav ul.nav > li.active>a {color: #7FC7D9;}  /*selection color */
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
@@ -260,7 +260,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a{padding:30px 25px;}
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a{padding:35px 25px;}
 /*.nav li*/
 
 /*.menu-ui-design*/
@@ -312,7 +312,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-hero-txt{text-align: center;padding:290px 0 372px;}
 .welcome-hero-txt h2 {
     font-size: 42px;
-    color: #0f0;
+    color: #0f0;      /*heading color */
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -320,7 +320,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-hero-txt p {
     font-size: 18px;
     text-transform: initial;
-    color: #f00;
+    color: #f00;     /*sub heading color */
     font-weight: 500;
     max-width: 735px;
     margin: 0 auto;
@@ -330,7 +330,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     width: 230px;
     height: 600px;
     background: #4e4ffa;
-    color: #fff;
+    color: #0f0;
     border-radius: 3px;
     margin-top: 55px;
     -webkit-transition: .3s linear; 
@@ -411,7 +411,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------
         5. Service 
 --------------------------------------*/
-.service { padding: 260px 0 87px;}
+.service { padding: 180px 0 20px;}
 
 .single-service-item{
     text-align: center;
@@ -460,8 +460,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         6. New-sets
 --------------------------------------*/
 .new-sets{
-    background: #f8f9fb;
-    padding:112px 0 120px;
+    background: #C3E2C2;
+    padding:100px 0 100px;
 }
 .new-sets-content{padding-top:96px;}
 /*.new-sets-txt*/
@@ -530,7 +530,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------       
         8. Clients-say 
 --------------------------------------*/
-.clients-say{padding:115px 0 80px;background: #f8f9fb;}
+.clients-say{padding:120px 0 40px;background: #f8f9fb;}     /*success story*/
 
 /*single-testimonial-box */
 .single-testimonial-box  {
@@ -581,7 +581,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 
 /*testimonial-description*/
-.single-testimonial-box:hover h2 a,.single-testimonial-box:hover h4, .single-testimonial-box:hover p{color: #fff;}
+.single-testimonial-box:hover h2 a,.single-testimonial-box:hover h4, .single-testimonial-box:hover p{color: #0f0;}
 .single-testimonial-box:hover{
     background: #4e4ffa;
     border: 1px solid #4e4ffa;
@@ -642,7 +642,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         9. Brand
 --------------------------------------*/
 .brand{
-    padding: 120px 0;
+    padding: 120px 0 200px;
 }
 .brand-area {
     position:relative;
