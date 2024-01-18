@@ -52,7 +52,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #0F1035;
+	color: #F00;
 	font-size:20px;
 	padding:0;
     font-weight: 500;
@@ -250,8 +250,8 @@ nav.navbar.bootsnav ul.nav > li > a {
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 45px 21px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color:#365486;}
-nav.navbar.bootsnav ul.nav > li.active>a {color: #7FC7D9;}  /*selection color */
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color:#0F0;}
+nav.navbar.bootsnav ul.nav > li.active>a {color: #F00;}  /*selection color */
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
